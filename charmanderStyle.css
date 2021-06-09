@@ -88,7 +88,7 @@ aside {
 .cardContainer {
     grid-row: 1 / 2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1fr;
     margin: 4px;
 }
