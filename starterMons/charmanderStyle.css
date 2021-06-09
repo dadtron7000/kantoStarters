@@ -18,7 +18,7 @@ nav {
     font-size: x-large;
     list-style-type: none;
     background-color: lightsalmon;
-    background-image: linear-gradient(yellow 1%, orange, red, orange, yellow 99%);
+    background-image: linear-gradient(yellow 1%, orange, orange, red, orange, orange, yellow 99%);
     justify-content: space-between;
     align-items: center;
     height: 5vh;
@@ -88,7 +88,7 @@ aside {
 .cardContainer {
     grid-row: 1 / 2;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 1fr;
     margin: 4px;
 }
@@ -148,7 +148,7 @@ aside {
 
 .card::after {
     content: "➪";
-    font-size: 72px;
+    font-size: 65px;
     font-weight: bolder;
     position:absolute;
     right: -80px;
@@ -160,6 +160,7 @@ aside {
     border: 10px outset darkred;
     border-radius: 20px;
     margin: 4px;
+    background-image: linear-gradient(to bottom right, red 25%, orange, lightyellow, orange, red);
 }
 
 
